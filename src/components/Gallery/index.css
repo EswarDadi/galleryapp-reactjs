@@ -1,0 +1,24 @@
+.image-container {
+  list-style-type: none;
+}
+.bg-container {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: roboto;
+  font-size: 26px;
+  margin-left: 35px;
+}
+.description {
+  font-family: Roboto;
+  color: #64748b;
+  font-weight: 700;
+  margin-left: 35px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  opacity: 0.5px;
+}
