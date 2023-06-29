@@ -92,13 +92,11 @@ class Gallery extends Component {
     const filteredResults = this.getFilteredImages()
     return (
       <div className="bg-container">
-        <ul className="image-container">
+        <div className="image-container">
           {filteredResults.map(eachImage => (
-            <li>
-              <img src={eachImage.imageUrl} alt={eachImage.imageAltText} />
-            </li>
+            <img src={eachImage.imageUrl} alt={eachImage.imageAltText} />
           ))}
-        </ul>
+        </div>
         <h1 className="heading">Nature Photography</h1>
         <p className="description">Nature Photography by Rahul</p>
         <ul className="list-container">

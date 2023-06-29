@@ -8,15 +8,11 @@ const ThumbnailItem = props => {
     clickThumbnail(id)
   }
   return (
-    <div>
-      <li>
-        <div>
-          <button type="button" onClick={onClickThumbnail} className="button">
-            <img src={thumbnailUrl} alt={thumbnailAltText} />
-          </button>
-        </div>
-      </li>
-    </div>
+    <li>
+      <button type="button" onClick={onClickThumbnail} className="button">
+        <img src={thumbnailUrl} alt={thumbnailAltText} />
+      </button>
+    </li>
   )
 }
 export default ThumbnailItem
